@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3592hz0la42t0157sr4nh0kqppy3ept">
+  <files names="KoltinDependencyTextConverter.java:KotlinConceptMapper.java:KotlinDependencyResolver.java:KotlinImportPathResolver.java:KotlinJavaTypeTextConverter.java" />
+</product>
+

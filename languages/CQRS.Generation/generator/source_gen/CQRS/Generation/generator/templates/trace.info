@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="93,0,96,0" name="CQRS.Generation.generator.templates.QueriesGenerated$CONCEPTS" />
+      <unit at="77,0,92,0" name="CQRS.Generation.generator.templates.QueriesGenerated$MCC" />
+      <unit at="50,0,66,0" name="CQRS.Generation.generator.templates.QueriesGenerated$SCB" />
+      <unit at="24,0,97,0" name="CQRS.Generation.generator.templates.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:657dae5e-6259-4955-aec8-3114d8d8c5bb(CQRS.Generation.generator.templates@generator)/3818776725665950330">
+    <file name="QueriesGenerated.java">
+      <node id="729519169767000870" at="36,77,37,16" concept="2" />
+      <node id="3818776725665950330" at="68,14,69,56" concept="0" />
+      <node id="3818776725665950330" at="85,15,86,54" concept="2" />
+      <node id="729519169767000558" at="36,0,39,0" concept="3" trace="mc_Condition_0#(Ljetbrains/mps/generator/template/TemplateQueryContext;)Z" />
+      <scope id="729519169767000559" at="36,77,37,16" />
+      <scope id="3818776725665950330" at="85,15,86,54" />
+      <scope id="729519169767000558" at="36,0,39,0">
+        <var name="_context" id="729519169767000558" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:657dae5e-6259-4955-aec8-3114d8d8c5bb(CQRS.Generation.generator.templates@generator)/3818776725665950363">
+    <file name="QueriesGenerated.java">
+      <node id="7362534909229446028" at="31,47,32,75" concept="0" />
+      <node id="3818776725665950363" at="41,14,42,57" concept="0" />
+      <node id="3818776725665950363" at="58,15,59,58" concept="0" />
+      <node id="3818776725665950363" at="59,58,60,17" concept="2" />
+      <node id="7362534909229444708" at="31,0,34,0" concept="1" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7362534909229435889" at="29,85,34,7" concept="0" />
+      <node id="3818776725665950364" at="29,0,36,0" concept="3" trace="mappingScript_CodeBlock_1#(Ljetbrains/mps/generator/template/MappingScriptContext;)V" />
+      <scope id="7362534909229444709" at="31,47,32,75" />
+      <scope id="3818776725665950363" at="58,15,60,17" />
+      <scope id="7362534909229444708" at="31,0,34,0">
+        <var name="boundedContext" id="7362534909229444708" />
+      </scope>
+      <scope id="3818776725665950365" at="29,85,34,7" />
+      <scope id="3818776725665950364" at="29,0,36,0">
+        <var name="_context" id="3818776725665950364" />
+      </scope>
+      <unit id="7362534909229444708" at="30,112,34,5" name="CQRS.Generation.generator.templates.QueriesGenerated$1" />
+    </file>
+  </root>
+</debug-info>
+

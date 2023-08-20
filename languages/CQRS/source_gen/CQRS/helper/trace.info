@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root nodeRef="r:960662d9-c1ee-48af-b5a5-518d2ac1ca55(CQRS.helper)/1348602402691693479">
+    <file name="KeywordUtil.java">
+      <node id="1348602402691658615" at="8,53,9,85" concept="5" />
+      <node id="1348602402691660844" at="9,85,10,66" concept="5" />
+      <node id="1348602402691662881" at="10,66,11,52" concept="6" />
+      <node id="1348602402691693637" at="8,0,13,0" concept="9" trace="isValidKeyword#(Ljava/lang/String;)Z" />
+      <scope id="1348602402691693641" at="8,53,11,52">
+        <var name="isReservedKeyword" id="1348602402691660845" />
+        <var name="matchesIdPattern" id="1348602402691658616" />
+      </scope>
+      <scope id="1348602402691693637" at="8,0,13,0">
+        <var name="name" id="1348602402691693799" />
+      </scope>
+      <unit id="1348602402691693479" at="7,0,14,0" name="CQRS.helper.KeywordUtil" />
+    </file>
+  </root>
+  <root nodeRef="r:960662d9-c1ee-48af-b5a5-518d2ac1ca55(CQRS.helper)/1721093359569768567">
+    <file name="DerivedVariableWrapper.java">
+      <node id="1721093359569768567" at="17,0,18,0" concept="2" trace="myFlatteringRule" />
+      <node id="1721093359569768567" at="18,36,19,33" concept="6" />
+      <node id="1721093359569768567" at="21,48,22,34" concept="1" />
+      <node id="1721093359569768567" at="24,48,25,30" concept="1" />
+      <node id="1721093359569768567" at="25,30,26,17" concept="6" />
+      <node id="1721093359569768567" at="30,26,31,35" concept="6" />
+      <node id="1721093359569768567" at="33,36,34,34" concept="1" />
+      <node id="1721093359569768567" at="38,0,39,0" concept="2" trace="myVariableWrapper" />
+      <node id="1721093359569768567" at="39,47,40,34" concept="6" />
+      <node id="1721093359569768567" at="42,59,43,35" concept="1" />
+      <node id="1721093359569768567" at="45,69,46,31" concept="1" />
+      <node id="1721093359569768567" at="46,31,47,17" concept="6" />
+      <node id="1721093359569768567" at="51,36,52,36" concept="6" />
+      <node id="1721093359569768567" at="54,46,55,35" concept="1" />
+      <node id="1721093359569750782" at="60,89,61,43" concept="1" />
+      <node id="1721093359569756192" at="61,43,62,45" concept="1" />
+      <node id="1721093359570237260" at="66,35,67,68" concept="5" />
+      <node id="1721093359570233651" at="67,68,68,0" concept="7" />
+      <node id="1721093359570254439" at="69,133,70,29" concept="6" />
+      <node id="1721093359570255710" at="71,5,72,0" concept="7" />
+      <node id="1721093359570263929" at="72,0,73,354" concept="5" />
+      <node id="1721093359570261949" at="73,354,74,0" concept="7" />
+      <node id="1721093359570315705" at="75,133,76,43" concept="6" />
+      <node id="1721093359570239415" at="77,5,78,0" concept="7" />
+      <node id="2302485497087038578" at="79,80,80,25" concept="6" />
+      <node id="2302485497087012102" at="81,5,82,0" concept="7" />
+      <node id="1721093359570304236" at="82,0,83,65" concept="5" />
+      <node id="1721093359570340513" at="83,65,84,132" concept="5" />
+      <node id="1721093359570350295" at="84,132,85,48" concept="6" />
+      <node id="1721093359571108156" at="89,37,90,53" concept="6" />
+      <node id="2302485497087075267" at="93,37,94,42" concept="5" />
+      <node id="2302485497087244956" at="96,60,97,20" concept="6" />
+      <node id="2302485497087243914" at="98,7,99,0" concept="7" />
+      <node id="2302485497087203705" at="99,0,100,112" concept="5" />
+      <node id="2302485497087194520" at="101,81,102,123" concept="6" />
+      <node id="2302485497087234654" at="103,7,104,0" concept="7" />
+      <node id="2302485497087158746" at="104,0,105,110" concept="1" />
+      <node id="2302485497087105555" at="106,5,107,16" concept="6" />
+      <node id="1721093359569850883" at="110,85,111,58" concept="6" />
+      <node id="2302485497087203707" at="114,69,115,47" concept="6" />
+      <node id="2302485497087158749" at="117,69,118,47" concept="6" />
+      <node id="1721093359569768567" at="122,0,123,0" concept="8" trace="nameConvention$LtCG" />
+      <node id="1721093359569768567" at="18,0,21,0" concept="4" trace="getFlatteringRule#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1721093359569768567" at="21,0,24,0" concept="4" trace="_setFlatteringRule#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1721093359569768567" at="30,0,33,0" concept="4" trace="get#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1721093359569768567" at="33,0,36,0" concept="4" trace="set#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1721093359569768567" at="39,0,42,0" concept="4" trace="getVariableWrapper#()LCQRS/helper/VariableWrapper;" />
+      <node id="1721093359569768567" at="42,0,45,0" concept="4" trace="_setVariableWrapper#(LCQRS/helper/VariableWrapper;)V" />
+      <node id="1721093359569768567" at="51,0,54,0" concept="4" trace="get#()LCQRS/helper/VariableWrapper;" />
+      <node id="1721093359569768567" at="54,0,57,0" concept="4" trace="set#(LCQRS/helper/VariableWrapper;)V" />
+      <node id="1721093359570246980" at="68,0,71,5" concept="3" />
+      <node id="1721093359570256464" at="74,0,77,5" concept="3" />
+      <node id="2302485497087012955" at="78,0,81,5" concept="3" />
+      <node id="2302485497087244951" at="95,53,98,7" concept="3" />
+      <node id="2302485497087177312" at="100,112,103,7" concept="3" />
+      <node id="1721093359569850363" at="110,0,113,0" concept="9" trace="of#(Lorg/jetbrains/mps/openapi/model/SNode;LCQRS/helper/VariableWrapper;)LCQRS/helper/DerivedVariableWrapper;" />
+      <node id="2302485497087203707" at="114,0,117,0" concept="9" trace="as_3zx2sd_a0a2a1a81#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="2302485497087158749" at="117,0,120,0" concept="9" trace="as_3zx2sd_a0a0f0b0s#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+      <node id="1721093359569768567" at="24,0,28,0" concept="4" trace="setFlatteringRule#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1721093359569768567" at="45,0,49,0" concept="4" trace="setVariableWrapper#(LCQRS/helper/VariableWrapper;)LCQRS/helper/VariableWrapper;" />
+      <node id="1721093359569750262" at="60,0,64,0" concept="0" trace="DerivedVariableWrapper#(Lorg/jetbrains/mps/openapi/model/SNode;LCQRS/helper/VariableWrapper;)V" />
+      <node id="1721093359570879743" at="88,0,92,0" concept="4" trace="getWrappedVariable#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1721093359569768567" at="28,50,36,6" concept="6" />
+      <node id="1721093359569768567" at="49,61,57,6" concept="6" />
+      <node id="1721093359569768567" at="28,0,38,0" concept="4" trace="refToFlatteringRule#()Ljetbrains/mps/references/Reference;" />
+      <node id="1721093359569768567" at="49,0,59,0" concept="4" trace="refToVariableWrapper#()Ljetbrains/mps/references/Reference;" />
+      <node id="2302485497087078968" at="94,42,106,5" concept="10" />
+      <node id="2302485497087052061" at="93,0,109,0" concept="4" trace="findVariableOrigin#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="1721093359570127434" at="65,0,87,0" concept="4" trace="getVariableName#()Ljava/lang/String;" />
+      <scope id="1721093359569768567" at="18,36,19,33" />
+      <scope id="1721093359569768567" at="21,48,22,34" />
+      <scope id="1721093359569768567" at="30,26,31,35" />
+      <scope id="1721093359569768567" at="33,36,34,34" />
+      <scope id="1721093359569768567" at="39,47,40,34" />
+      <scope id="1721093359569768567" at="42,59,43,35" />
+      <scope id="1721093359569768567" at="51,36,52,36" />
+      <scope id="1721093359569768567" at="54,46,55,35" />
+      <scope id="1721093359570246982" at="69,133,70,29" />
+      <scope id="1721093359570256466" at="75,133,76,43" />
+      <scope id="2302485497087012957" at="79,80,80,25" />
+      <scope id="1721093359570879747" at="89,37,90,53" />
+      <scope id="2302485497087244955" at="96,60,97,20" />
+      <scope id="2302485497087177314" at="101,81,102,123" />
+      <scope id="1721093359569850367" at="110,85,111,58" />
+      <scope id="2302485497087203707" at="114,69,115,47" />
+      <scope id="2302485497087158749" at="117,69,118,47" />
+      <scope id="1721093359569768567" at="24,48,26,17" />
+      <scope id="1721093359569768567" at="45,69,47,17" />
+      <scope id="1721093359569750266" at="60,89,62,45" />
+      <scope id="1721093359569768567" at="18,0,21,0" />
+      <scope id="1721093359569768567" at="21,0,24,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569768567" at="30,0,33,0" />
+      <scope id="1721093359569768567" at="33,0,36,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569768567" at="39,0,42,0" />
+      <scope id="1721093359569768567" at="42,0,45,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569768567" at="51,0,54,0" />
+      <scope id="1721093359569768567" at="54,0,57,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569850363" at="110,0,113,0">
+        <var name="fromRule" id="1721093359570224472" />
+        <var name="variable" id="1721093359569850617" />
+      </scope>
+      <scope id="2302485497087203707" at="114,0,117,0">
+        <var name="o" id="2302485497087203707" />
+        <var name="type" id="2302485497087203707" />
+      </scope>
+      <scope id="2302485497087158749" at="117,0,120,0">
+        <var name="o" id="2302485497087158749" />
+        <var name="type" id="2302485497087158749" />
+      </scope>
+      <scope id="1721093359569768567" at="24,0,28,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569768567" at="45,0,49,0">
+        <var name="value" id="1721093359569768567" />
+      </scope>
+      <scope id="1721093359569750262" at="60,0,64,0">
+        <var name="flatteningRule" id="1721093359569750468" />
+        <var name="variableWrapper" id="1721093359569750298" />
+      </scope>
+      <scope id="1721093359570879743" at="88,0,92,0" />
+      <scope id="1721093359569768567" at="28,50,36,6" />
+      <scope id="1721093359569768567" at="49,61,57,6" />
+      <scope id="1721093359569768567" at="28,0,38,0" />
+      <scope id="1721093359569768567" at="49,0,59,0" />
+      <scope id="2302485497087078970" at="95,53,105,110">
+        <var name="derivedWrapper" id="2302485497087203706" />
+      </scope>
+      <scope id="2302485497087052065" at="93,37,107,16">
+        <var name="currentWrapper" id="2302485497087075268" />
+      </scope>
+      <scope id="2302485497087052061" at="93,0,109,0" />
+      <scope id="1721093359570127438" at="66,35,85,48">
+        <var name="firstChar" id="1721093359570304237" />
+        <var name="preOrSuffix" id="1721093359570263930" />
+        <var name="subVariableName" id="1721093359570237261" />
+        <var name="updatedSubVariableName" id="1721093359570340514" />
+      </scope>
+      <scope id="1721093359570127434" at="65,0,87,0" />
+      <unit id="1721093359569768567" at="121,0,124,0" name="CQRS.helper.DerivedVariableWrapper$PROPS" />
+      <unit id="1721093359569768567" at="29,15,36,5" name="CQRS.helper.DerivedVariableWrapper$1" />
+      <unit id="1721093359569768567" at="50,15,57,5" name="CQRS.helper.DerivedVariableWrapper$2" />
+      <unit id="1721093359569768567" at="15,0,125,0" name="CQRS.helper.DerivedVariableWrapper" />
+    </file>
+  </root>
+  <root nodeRef="r:960662d9-c1ee-48af-b5a5-518d2ac1ca55(CQRS.helper)/1721093359570119075">
+    <file name="SimpleVariableWrapper.java">
+      <node id="1721093359571082640" at="12,0,13,0" concept="2" trace="variable" />
+      <node id="1721093359570119163" at="14,49,15,29" concept="1" />
+      <node id="1721093359570128725" at="19,35,20,68" concept="6" />
+      <node id="1721093359571085635" at="24,37,25,20" concept="6" />
+      <node id="1721093359570229566" at="28,58,29,47" concept="6" />
+      <node id="1721093359570119075" at="33,0,34,0" concept="8" trace="name$MnvL" />
+      <node id="1721093359570119149" at="14,0,17,0" concept="0" trace="SimpleVariableWrapper#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1721093359570228974" at="28,0,31,0" concept="9" trace="of#(Lorg/jetbrains/mps/openapi/model/SNode;)LCQRS/helper/SimpleVariableWrapper;" />
+      <node id="1721093359570128718" at="18,0,22,0" concept="4" trace="getVariableName#()Ljava/lang/String;" />
+      <node id="1721093359571084718" at="23,0,27,0" concept="4" trace="getWrappedVariable#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1721093359570119156" at="14,49,15,29" />
+      <scope id="1721093359570128722" at="19,35,20,68" />
+      <scope id="1721093359571084722" at="24,37,25,20" />
+      <scope id="1721093359570228978" at="28,58,29,47" />
+      <scope id="1721093359570119149" at="14,0,17,0">
+        <var name="variable" id="1721093359570119152" />
+      </scope>
+      <scope id="1721093359570228974" at="28,0,31,0">
+        <var name="variable" id="1721093359570229256" />
+      </scope>
+      <scope id="1721093359570128718" at="18,0,22,0" />
+      <scope id="1721093359571084718" at="23,0,27,0" />
+      <unit id="1721093359570119075" at="32,0,35,0" name="CQRS.helper.SimpleVariableWrapper$PROPS" />
+      <unit id="1721093359570119075" at="10,0,36,0" name="CQRS.helper.SimpleVariableWrapper" />
+    </file>
+  </root>
+  <root nodeRef="r:960662d9-c1ee-48af-b5a5-518d2ac1ca55(CQRS.helper)/1721093359570119791">
+    <file name="VariableWrapper.java">
+      <node id="1721093359570126901" at="8,0,9,0" concept="4" trace="getVariableName#()Ljava/lang/String;" />
+      <node id="1721093359571081168" at="9,0,10,0" concept="4" trace="getWrappedVariable#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="1721093359570126901" at="8,0,9,0" />
+      <scope id="1721093359571081168" at="9,0,10,0" />
+      <unit id="1721093359570119791" at="7,0,11,0" name="CQRS.helper.VariableWrapper" />
+    </file>
+  </root>
+  <root nodeRef="r:960662d9-c1ee-48af-b5a5-518d2ac1ca55(CQRS.helper)/3290140704815311801">
+    <file name="KeywordColorUtils.java">
+      <node id="3290140704815330818" at="10,0,11,0" concept="8" trace="KEYWORD_LIGHT_COLOR" />
+      <node id="3290140704815330568" at="11,0,12,0" concept="8" trace="KEYWORD_DARK_COLOR" />
+      <node id="3290140704815331382" at="13,0,14,0" concept="8" trace="OPTIONAL_KEYWORD_LIGHT_COLOR" />
+      <node id="3290140704815331559" at="14,0,15,0" concept="8" trace="OPTIONAL_KEYWORD_DARK_COLOR" />
+      <node id="3290140704815338267" at="16,0,17,0" concept="8" trace="GENERIC_TYPE_LIGHT_COLOR" />
+      <node id="3290140704815338273" at="17,0,18,0" concept="8" trace="GENERIC_TYPE_DARK_COLOR" />
+      <node id="3290140704815323162" at="19,0,20,0" concept="8" trace="PRIMITIVE_TYPE_LIGHT_COLOR" />
+      <node id="3290140704815323964" at="20,0,21,0" concept="8" trace="PRIMITIVE_TYPE_DARK_COLOR" />
+      <node id="3290140704815338817" at="22,0,23,0" concept="8" trace="COLLECTION_TYPE_LIGHT_COLOR" />
+      <node id="3290140704815338823" at="23,0,24,0" concept="8" trace="COLLECTION_TYPE_DARK_COLOR" />
+      <node id="3290140704815339401" at="25,0,26,0" concept="8" trace="BOUNDED_CONTEXT_LIGHT_COLOR" />
+      <node id="3290140704815339407" at="26,0,27,0" concept="8" trace="BOUNDED_CONTEXT_DARK_COLOR" />
+      <node id="3290140704815340019" at="28,0,29,0" concept="8" trace="CONNECTING_COMPONENT_LIGHT_COLOR" />
+      <node id="3290140704815340025" at="29,0,30,0" concept="8" trace="CONNECTING_COMPONENT_DARK_COLOR" />
+      <node id="3290140704815340671" at="31,0,32,0" concept="8" trace="COMMAND_COMPONENT_LIGHT_COLOR" />
+      <node id="3290140704815340677" at="32,0,33,0" concept="8" trace="COMMAND_COMPONENT_DARK_COLOR" />
+      <node id="3290140704815341357" at="34,0,35,0" concept="8" trace="QUERY_COMPONENT_LIGHT_COLOR" />
+      <node id="3290140704815341363" at="35,0,36,0" concept="8" trace="QUERY_COMPONENT_DARK_COLOR" />
+      <node id="3290140704815349477" at="38,55,39,63" concept="6" />
+      <node id="3290140704815350204" at="42,63,43,81" concept="6" />
+      <node id="3290140704815351159" at="46,59,47,73" concept="6" />
+      <node id="3290140704815313218" at="50,61,51,77" concept="6" />
+      <node id="3290140704815353178" at="54,62,55,79" concept="6" />
+      <node id="3290140704815354737" at="58,62,59,79" concept="6" />
+      <node id="3290140704815356539" at="62,67,63,89" concept="6" />
+      <node id="3290140704815357818" at="66,64,67,83" concept="6" />
+      <node id="3290140704815360079" at="70,62,71,79" concept="6" />
+      <node id="3290140704815349471" at="38,0,41,0" concept="9" trace="getKeywordColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815350198" at="42,0,45,0" concept="9" trace="getOptionalKeywordColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815351153" at="46,0,49,0" concept="9" trace="getGenericTypeColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815312140" at="50,0,53,0" concept="9" trace="getPrimitiveTypeColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815353172" at="54,0,57,0" concept="9" trace="getCollectionTypeColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815354731" at="58,0,61,0" concept="9" trace="getBoundedContextColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815356533" at="62,0,65,0" concept="9" trace="getConnectingComponentColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815357812" at="66,0,69,0" concept="9" trace="getCommandComponentColors#()Ljetbrains/mps/util/Pair;" />
+      <node id="3290140704815360073" at="70,0,73,0" concept="9" trace="getQueryComponentColors#()Ljetbrains/mps/util/Pair;" />
+      <scope id="3290140704815349476" at="38,55,39,63" />
+      <scope id="3290140704815350203" at="42,63,43,81" />
+      <scope id="3290140704815351158" at="46,59,47,73" />
+      <scope id="3290140704815312144" at="50,61,51,77" />
+      <scope id="3290140704815353177" at="54,62,55,79" />
+      <scope id="3290140704815354736" at="58,62,59,79" />
+      <scope id="3290140704815356538" at="62,67,63,89" />
+      <scope id="3290140704815357817" at="66,64,67,83" />
+      <scope id="3290140704815360078" at="70,62,71,79" />
+      <scope id="3290140704815349471" at="38,0,41,0" />
+      <scope id="3290140704815350198" at="42,0,45,0" />
+      <scope id="3290140704815351153" at="46,0,49,0" />
+      <scope id="3290140704815312140" at="50,0,53,0" />
+      <scope id="3290140704815353172" at="54,0,57,0" />
+      <scope id="3290140704815354731" at="58,0,61,0" />
+      <scope id="3290140704815356533" at="62,0,65,0" />
+      <scope id="3290140704815357812" at="66,0,69,0" />
+      <scope id="3290140704815360073" at="70,0,73,0" />
+      <unit id="3290140704815311801" at="8,0,75,0" name="CQRS.helper.KeywordColorUtils" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,7 @@
+# Project exclude paths
+/languages/CQRS/classes_gen/
+/languages/CQRS.Generation/classes_gen/
+/languages/CQRS.Generation/generator/classes_gen/
+/languages/CQRS.Kotlin/classes_gen/
+/languages/CQRS.Kotlin/generator/classes_gen/
+/languages/CQRS.sandbox/classes_gen/

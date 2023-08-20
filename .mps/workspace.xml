@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BreakpointManager">
+    <breakpoint kind="JAVA_LINE_BREAKPOINT">
+      <JavaBreakpointInfo>
+        <option name="location" value="r:9b8b8719-a560-486b-9a35-0c285c344856(CQRS.editor)/757976835707409891" />
+        <option name="mySuspendPolicy" value="2" />
+        <option name="myIsLogMessage" value="false" />
+        <option name="myCreationTime" value="1686831560294" />
+        <option name="myIsEnabled" value="true" />
+      </JavaBreakpointInfo>
+    </breakpoint>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72a01bb8-904a-409d-a942-ddd1d77c725b" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/models/cqrs.sandbox.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox_kotlin/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox_kotlin/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox_kotlin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/CQRS/sandbox_kotlin/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen.caches/deps.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/billing/command_side/commands/handler/ExampleAggregateRootCommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/billing/command_side/commands/handler/ExampleAggregateRootCommandHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/command_side/aggregates/IUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/command_side/aggregates/IUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/command_side/aggregates/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/command_side/aggregates/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/query_side/dto/UserDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/languages/CQRS.sandbox/source_gen/context/examplecontext/query_side/dto/UserDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/CQRS.test.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/classes_gen/CQRS/test/test/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/models/CQRS.test.test@tests.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen.caches/CQRS/test/test/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen.caches/CQRS/test/test/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen.caches/deps.cp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen.caches/kotlin_compiled_cache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/AggregateRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/AggregateRootIdRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/AggregateRootRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/BaseEventSourcedAggregateRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/Cqrs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/Student.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/CQRS.test/source_gen/CQRS/test/test/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/NewPluginSolution.msd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/models/NewPluginSolution.plugin.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen.caches/NewPluginSolution/plugin/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen.caches/NewPluginSolution/plugin/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen.caches/deps.cp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen.caches/kotlin_compiled_cache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/AggregateIdRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/AggregateRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/AggregateRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/BaseEventSourcedAggregateRoot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/CommandHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/NewPluginSolution/source_gen/hallo/command_side/EventSourcedAggregateRoot.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="false" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="8802ad4f-6355-47b5-96ac-273602bfa45a/r:605da009-8237-47f8-8c08-117eaafb15bf(TempModule8802ad4f-6355-47b5-96ac-273602bfa45a/ConsoleModel_370407983100100)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="n9p1zawzte">
+                <node concept="3balQm" id="n9p1zawztf" role="aymYE" />
+                <node concept="2Clz$F" id="n9p1zawztg" role="aymYO" />
+                <node concept="2_V_lH" id="n9p1zawzth" role="1PhJh3">
+                  <ref role="2_V_lI" node="n9p1zawztg" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders>
+          <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        </finders>
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+    <finders_option node="jetbrains.mps.lang.editor.structure.TransformationMenu">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.structure.FieldDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.BaseMethodUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.StyleKey">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.MenuTypeNamed">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.editor.findUsages.FindMenuUsagesFromMenuType_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.structure.ClassConcept">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ClassUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.TransformationMenuPart_WrapSubstituteMenu">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.CellMenuComponent">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.textGen.structure.OperationDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.SubstituteMenu">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.ConceptDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Parameterized">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.EditorCellId">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.PropertyDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.baseLanguage.extensionMethods.structure.ExtensionMethodDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+        <finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.StyleClass">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.LinkDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.actions.structure.NodeFactory">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.structure.structure.EnumerationDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.intentions.structure.IntentionDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+    <finders_option node="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclaration">
+      <finders>
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+      </finders>
+    </finders_option>
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+    <option name="myUnnumberedBookmarkInfos">
+      <array>
+        <BookmarkInfo>
+          <option name="nodeRef" value="r:7db39d4a-717a-4ba4-ab53-a37801879aa4(CQRS.sandbox)/444934303229738780" />
+          <option name="myNumber" value="-1" />
+          <option name="myIsNull" value="false" />
+        </BookmarkInfo>
+        <BookmarkInfo>
+          <option name="nodeRef" value="r:7db39d4a-717a-4ba4-ab53-a37801879aa4(CQRS.sandbox)/5501684678989802253" />
+          <option name="myNumber" value="-1" />
+          <option name="myIsNull" value="false" />
+        </BookmarkInfo>
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="NodeEditorSearchHistory">
+    <option name="searches">
+      <list>
+        <option value="createEventWrapperInterface" />
+        <option value="private" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PCHak6GuHhSs5SLOiERTS29jKh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="true" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS-DSL" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2982f7b7-210d-4c3a-8272-6515edc85204" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c034ca1e-7133-4d1d-b432-5a86b3fc75cd(CQRS.sandbox_kotlin) in IdeaFile[path: D:/Programming/MPSProjects/CQRS-DSL/languages/CQRS.sandbox/models/CQRS.sandbox_kotlin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS-DSL" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2982f7b7-210d-4c3a-8272-6515edc85204" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS-DSL" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2982f7b7-210d-4c3a-8272-6515edc85204" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS-DSL" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS-DSL" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2982f7b7-210d-4c3a-8272-6515edc85204" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CQRS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c034ca1e-7133-4d1d-b432-5a86b3fc75cd(CQRS.sandbox_kotlin) in IdeaFile[path: D:/Programming/MPSProjects/CQRS-DSL/languages/CQRS.sandbox/models/CQRS.sandbox_kotlin.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="FileSystem" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/MPSProjects/DSL-Examples&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lucmi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72a01bb8-904a-409d-a942-ddd1d77c725b" name="Changes" comment="" />
+      <created>1682954209232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682954209232</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Major changes">
+      <created>1684416805374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684416805374</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented a lot of new Concepts and imporved the Editor feeling">
+      <created>1685019455081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685019455081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started to change AggregateRootRepository implementation">
+      <created>1685125307084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685125307084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Before Command Container Changes and Aggregate Repository Reference changes">
+      <created>1685195007205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685195007205</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adjusted Repository Reference Implementation">
+      <created>1685214349327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685214349327</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adjusted Repository Reference Implementation">
+      <created>1685214358248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685214358248</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implemented more logic for commands and command containers + intentions&#10;-&gt; next up: Queries and QueryContainer with DTO Mapping">
+      <created>1685368877272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685368877272</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented dto repository. &#10;Changed commandContainer Implementation to use Command Handler as a keyowrd. &#10;Before Implementation start of QueryContainer with QueryService and QueryHandler.">
+      <created>1685459271021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685459271021</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented first version of QueryContainer with required repository support.&#10;&#10;In a future version it should be possible to no specify any required repositories,&#10;when the pattern should not be used.">
+      <created>1685544055237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685544055237</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Before optional requiring DTO implementation">
+      <created>1685601035222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685601035222</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Before Implementation of queries redone">
+      <created>1685625292581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685625292581</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Before Implementation of Name generic Wrapper and Placeholder Component">
+      <created>1685711561613</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685711561613</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implemented generic Placeholder Component for AggregateRepo, DtoRepo and QueryHandler">
+      <created>1685724708203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685724708203</updated>
+    </task>
+    <task id="LOCAL-00014" summary="VCS Commit">
+      <created>1685783569773</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685783569773</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adjusted some thing for dto Repo and QueryContainer">
+      <created>1685793004279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685793004279</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adjusted QueryContainer and CommandContainer implementations.&#10;&#10;Implemented first Copy Paste Handler for DtoRepository&#10;Implemented DtoRepository, Query and QueryContainer DTO constrains.">
+      <created>1685883102049</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685883102049</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added same treatment for EventContainer like for QueryContainer and CommandContainer.&#10;&#10;Adjusted Copy Paste Logic of some nodes.&#10;&#10;Improved Util Methods in separate Module.">
+      <created>1685987400818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685987400818</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Implemented more generic code for IComponentWithRepositoryReferences.&#10;&#10;Change to fully use IComponentWithRepositoryReferences starts after this commit.">
+      <created>1686041347796</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686041347796</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Implemented ImportStatement Generic Type updates on child Nodes.&#10;Before Switch to IComponentWithRepositoryReferences">
+      <created>1686056719608</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686056719608</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Implemented most of Generic Repository Container.&#10;Started to implement Generator Settings">
+      <created>1686160631368</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686160631368</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Implemented first Generator Settings version and &#10;adjusted some code for aggregate references.">
+      <created>1686241799021</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686241799021</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Improved Type checking system for JavaDataTypes. &#10;&#10;Started to implement IDataType getNestedGenericTypes, in order to check if &#10;some specific generic type is present inside of them.">
+      <created>1686332513939</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686332513939</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Implemented type checking for basic datatypes which are provided with the concepts&#10;of this DSL. The Typechecking system will now throw an error when java.util.List etc. will be &#10;imported since there is a matching concept in the language.&#10;&#10;Added Merging of required repositories to container.&#10;&#10;Added return type checking for query method and query methods, so it will throw an error when&#10;a query is imported in the dto repository which uses another repository inside of it.">
+      <created>1686409585862</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686409585862</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Started to implement DTO Derivation logic">
+      <created>1686644808587</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686644808587</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Before implementation of Flat Mapping lookup">
+      <created>1686740303149</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686740303149</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Improved implementation of dto derivation">
+      <created>1686762552196</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686762552196</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Implemented used Variables for Flattening RUle Context">
+      <created>1686826988746</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686826988746</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Implemente Substitude Menu for DerivationRuleReferences and added&#10;container for derivation rules">
+      <created>1686845372852</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686845372852</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implemented other solution for Kotlin and implemented some type checking &#10;rules and other functionalities.">
+      <created>1686941648815</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686941648815</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Started to implement generator logic.&#10;&#10;Using TextGen now for generation.">
+      <created>1687031940413</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687031940413</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Extended Generator Logic with DependencyResolver, ConceptMapper and general improvements.&#10;&#10;Implemented GenerationTarget and dependent generation logic.">
+      <created>1687204331244</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687204331244</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Further enchancements in the generation logic.&#10;&#10;Some dirty workarounds and a lot of unnecessary classes were used and&#10;have to be optimized.">
+      <created>1687372742088</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687372742088</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Implemented Repository Code Generation.&#10;&#10;Implemented Query, Command and Event Handler generation logic">
+      <created>1687462958782</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1687462958782</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Extended Query, Command and Event Handler generation logic.&#10;-&gt; Added Repository Dependency resolution">
+      <created>1687467176113</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1687467176113</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Implemented Query Processor and started with Dto Derivation">
+      <created>1687555277214</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1687555277214</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implemented Command Handler name placeholder logic and added &#10;possibility to use a command handler for a specific Aggregate">
+      <created>1687607131039</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1687607131039</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implemented JavaType DependencyResolver Logic and Text Converter for Kotlin.">
+      <created>1687698159259</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1687698159259</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Before Builder implementation and Generation changes">
+      <created>1687703191764</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1687703191764</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Implemented Method and Parameter Builder and adjusted their TextGen.">
+      <created>1687726083533</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1687726083533</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Implemented Entity and BaseEntity Generation and TextGen.">
+      <created>1687811150426</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1687811150426</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added checks for Repository validity and duplicate name checks for&#10;different constructs of a bounded context">
+      <created>1687905583364</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1687905583364</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Initial Commit">
+      <created>1692543877108</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692543877108</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs>
+      <tab>
+        <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+          <child rpn="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode">
+            <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+          </child>
+        </result_provider>
+        <query>
+          <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
+          <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+            <node ref="r:8c31c3a3-db83-4ac9-834b-2cb8f0f4a7eb(CQRS.structure)/4200731973503197549" title="PlaceholderDataType" />
+          </holder>
+        </query>
+        <usage_view>
+          <tree_wrapper>
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents caption="" excluded="false" isresult="false" results_section="false">
+              <role name="main root" />
+              <child caption="Searched nodes" excluded="false" isresult="false" results_section="false">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" />
+                <role name="searched nodes" />
+                <child caption="Searched nodes" excluded="false" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="CQRS" excluded="false" isresult="false" results_section="false" module_ref="fe04f903-cef2-451d-9401-426cad0a8857(CQRS)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="CQRS.structure" excluded="false" isresult="false" results_section="false">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="PlaceholderDataType" info="" excluded="false" isresult="true" results_section="false" nodePtr="r:8c31c3a3-db83-4ac9-834b-2cb8f0f4a7eb(CQRS.structure)/4200731973503197549" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:8c31c3a3-db83-4ac9-834b-2cb8f0f4a7eb(CQRS.structure)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+              <child caption="Usages" excluded="false" isresult="false" results_section="true">
+                <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" />
+                <role name="results" />
+                <child caption="Node Usages" excluded="false" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                  <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" />
+                  <role name="category:Category" />
+                  <child caption="CQRS" excluded="false" isresult="false" results_section="true" module_ref="fe04f903-cef2-451d-9401-426cad0a8857(CQRS)">
+                    <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" />
+                    <role name="module" />
+                    <child caption="CQRS.editor" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="PlaceholderDataType_Editor" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:9b8b8719-a560-486b-9a35-0c285c344856(CQRS.editor)/4200731973503197556" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <child caption="PlaceholderDataType_SubstituteMenu" info="" excluded="false" isresult="true" results_section="true" nodePtr="r:9b8b8719-a560-486b-9a35-0c285c344856(CQRS.editor)/4200731973503428017" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="target" />
+                      </child>
+                      <model uid="r:9b8b8719-a560-486b-9a35-0c285c344856(CQRS.editor)" />
+                    </child>
+                    <child caption="CQRS.typesystem" excluded="false" isresult="false" results_section="true">
+                      <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" />
+                      <role name="model" />
+                      <child caption="check_DataType" info="" excluded="false" isresult="false" results_section="true" nodePtr="r:536879c6-46f8-4c9c-860d-b388e5bcaaf0(CQRS.typesystem)/4200731973503656166" isRoot="true">
+                        <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                        <role name="root" />
+                        <child caption="PlaceholderDataType" info="(role: conceptArgument in: isExactly)" excluded="false" isresult="true" results_section="true" nodePtr="r:536879c6-46f8-4c9c-860d-b388e5bcaaf0(CQRS.typesystem)/2485957825795255142">
+                          <instance qcn="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" />
+                          <role name="target" />
+                        </child>
+                      </child>
+                      <model uid="r:536879c6-46f8-4c9c-860d-b388e5bcaaf0(CQRS.typesystem)" />
+                    </child>
+                  </child>
+                </child>
+              </child>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Implemented more generic code for IComponentWithRepositoryReferences.&#10;&#10;Change to fully use IComponentWithRepositoryReferences starts after this commit." />
+    <MESSAGE value="Implemented ImportStatement Generic Type updates on child Nodes.&#10;Before Switch to IComponentWithRepositoryReferences" />
+    <MESSAGE value="Implemented most of Generic Repository Container.&#10;Started to implement Generator Settings" />
+    <MESSAGE value="Implemented first Generator Settings version and &#10;adjusted some code for aggregate references." />
+    <MESSAGE value="Improved Type checking system for JavaDataTypes. &#10;&#10;Started to implement IDataType getNestedGenericTypes, in order to check if &#10;some specific generic type is present inside of them." />
+    <MESSAGE value="Implemented type checking for basic datatypes which are provided with the concepts&#10;of this DSL. The Typechecking system will now throw an error when java.util.List etc. will be &#10;imported since there is a matching concept in the language.&#10;&#10;Added Merging of required repositories to container.&#10;&#10;Added return type checking for query method and query methods, so it will throw an error when&#10;a query is imported in the dto repository which uses another repository inside of it." />
+    <MESSAGE value="Started to implement DTO Derivation logic" />
+    <MESSAGE value="Before implementation of Flat Mapping lookup" />
+    <MESSAGE value="Improved implementation of dto derivation" />
+    <MESSAGE value="Implemented used Variables for Flattening RUle Context" />
+    <MESSAGE value="Implemente Substitude Menu for DerivationRuleReferences and added&#10;container for derivation rules" />
+    <MESSAGE value="Implemented other solution for Kotlin and implemented some type checking &#10;rules and other functionalities." />
+    <MESSAGE value="Started to implement generator logic.&#10;&#10;Using TextGen now for generation." />
+    <MESSAGE value="Extended Generator Logic with DependencyResolver, ConceptMapper and general improvements.&#10;&#10;Implemented GenerationTarget and dependent generation logic." />
+    <MESSAGE value="Further enchancements in the generation logic.&#10;&#10;Some dirty workarounds and a lot of unnecessary classes were used and&#10;have to be optimized." />
+    <MESSAGE value="Implemented Repository Code Generation.&#10;&#10;Implemented Query, Command and Event Handler generation logic" />
+    <MESSAGE value="Extended Query, Command and Event Handler generation logic.&#10;-&gt; Added Repository Dependency resolution" />
+    <MESSAGE value="Implemented Query Processor and started with Dto Derivation" />
+    <MESSAGE value="Implemented Command Handler name placeholder logic and added &#10;possibility to use a command handler for a specific Aggregate" />
+    <MESSAGE value="Implemented JavaType DependencyResolver Logic and Text Converter for Kotlin." />
+    <MESSAGE value="Before Builder implementation and Generation changes" />
+    <MESSAGE value="Implemented Method and Parameter Builder and adjusted their TextGen." />
+    <MESSAGE value="Implemented Entity and BaseEntity Generation and TextGen." />
+    <MESSAGE value="Added checks for Repository validity and duplicate name checks for&#10;different constructs of a bounded context" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+</project>

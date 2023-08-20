@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-220c44oqqom78cxxhwenj260tk3c6fe">
+  <files names="ClassGenerator.java:ConceptMapper.java:ConceptMappers.java:DataTypeBuilder.java:DependencyImport.java:DependencyResolver.java:DependencyResolvers.java:DependencyTextConverter.java:DependencyTextConverters.java:DependencyUtils.java:GenerationTarget.java:JavaTypeDependencyUtils.java:JavaTypeTextConverter.java:MethodBuilder.java:ParameterBuilder.java" />
+</product>
+

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:80a70671-192c-4185-9509-8b98e792e24c(CQRS.Kotlin.generation)/1211078278628457141">
+    <file name="KotlinJavaTypeTextConverter.java">
+      <node id="1211078278628966142" at="30,59,31,75" concept="6" />
+      <node id="1211078278628954102" at="34,69,35,50" concept="5" />
+      <node id="1211078278628954107" at="37,13,38,25" concept="6" />
+      <node id="1211078278628954112" at="39,13,40,22" concept="6" />
+      <node id="1211078278628954117" at="41,13,42,22" concept="6" />
+      <node id="1211078278628954122" at="43,13,44,24" concept="6" />
+      <node id="1211078278628954127" at="45,13,46,23" concept="6" />
+      <node id="1211078278628954132" at="47,13,48,25" concept="6" />
+      <node id="1211078278628954137" at="49,13,50,22" concept="6" />
+      <node id="1211078278628954142" at="51,13,52,23" concept="6" />
+      <node id="1211078278628954147" at="53,13,54,24" concept="6" />
+      <node id="1211078278628954152" at="56,5,57,0" concept="7" />
+      <node id="1211078278628954153" at="57,0,58,92" concept="10" />
+      <node id="1211078278628457466" at="62,53,63,20" concept="6" />
+      <node id="1211078278628457476" at="67,51,68,127" concept="6" />
+      <node id="1211078278628934560" at="72,61,73,82" concept="5" />
+      <node id="1211078278628936334" at="73,82,74,0" concept="7" />
+      <node id="1211078278628944162" at="75,45,76,45" concept="6" />
+      <node id="1211078278633033025" at="77,5,78,0" concept="7" />
+      <node id="1211078278633057786" at="79,132,80,205" concept="6" />
+      <node id="1211078278633033196" at="81,5,82,0" concept="7" />
+      <node id="1211078278629033429" at="82,0,83,133" concept="5" />
+      <node id="1211078278629109426" at="86,42,87,35" concept="6" />
+      <node id="1211078278629005687" at="90,5,91,18" concept="6" />
+      <node id="451554192446629855" at="96,57,97,15" concept="6" />
+      <node id="1211078278628457141" at="100,0,101,0" concept="8" trace="conceptIndex" />
+      <node id="1211078278628457141" at="103,0,104,0" concept="8" trace="componentType$F$Gi" />
+      <node id="1211078278628457141" at="104,0,105,0" concept="8" trace="classifier$cxMr" />
+      <node id="1211078278628457141" at="105,0,106,0" concept="8" trace="parameter$oqG$" />
+      <node id="1211078278628457141" at="109,0,110,0" concept="8" trace="name$MnvL" />
+      <node id="1211078278628938277" at="74,0,77,5" concept="3" />
+      <node id="1211078278633036454" at="78,0,81,5" concept="3" />
+      <node id="1211078278629105215" at="86,0,89,0" concept="4" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1211078278628457447" at="29,0,33,0" concept="4" trace="convertPrimitiveType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1211078278628457457" at="61,0,65,0" concept="4" trace="convertStringType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1211078278628457467" at="66,0,70,0" concept="4" trace="convertArrayType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="451554192446629846" at="95,0,99,0" concept="4" trace="convertWildCardType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1211078278629059481" at="84,112,89,29" concept="1" />
+      <node id="1211078278629037383" at="83,133,90,5" concept="3" />
+      <node id="1211078278628954102" at="35,50,56,5" concept="9" />
+      <node id="1211078278628457477" at="71,0,93,0" concept="4" trace="convertClassifierType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="1211078278628954097" at="34,0,60,0" concept="4" trace="convertPrimitiveType#(Lorg/jetbrains/mps/openapi/language/SConcept;)Ljava/lang/String;" />
+      <scope id="1211078278628954102" at="55,14,55,14" />
+      <scope id="1211078278628457453" at="30,59,31,75" />
+      <scope id="1211078278628954102" at="37,13,38,25" />
+      <scope id="1211078278628954102" at="39,13,40,22" />
+      <scope id="1211078278628954102" at="41,13,42,22" />
+      <scope id="1211078278628954102" at="43,13,44,24" />
+      <scope id="1211078278628954102" at="45,13,46,23" />
+      <scope id="1211078278628954102" at="47,13,48,25" />
+      <scope id="1211078278628954102" at="49,13,50,22" />
+      <scope id="1211078278628954102" at="51,13,52,23" />
+      <scope id="1211078278628954102" at="53,13,54,24" />
+      <scope id="1211078278628457463" at="62,53,63,20" />
+      <scope id="1211078278628457473" at="67,51,68,127" />
+      <scope id="1211078278628938279" at="75,45,76,45" />
+      <scope id="1211078278633036456" at="79,132,80,205" />
+      <scope id="1211078278629105216" at="86,42,87,35" />
+      <scope id="451554192446629852" at="96,57,97,15" />
+      <scope id="1211078278629105215" at="86,0,89,0">
+        <var name="type" id="1211078278629105215" />
+      </scope>
+      <scope id="1211078278628457447" at="29,0,33,0">
+        <var name="primitiveType" id="1211078278628457451" />
+      </scope>
+      <scope id="1211078278628457457" at="61,0,65,0">
+        <var name="stringType" id="1211078278628457461" />
+      </scope>
+      <scope id="1211078278628457467" at="66,0,70,0">
+        <var name="arrayType" id="1211078278628457471" />
+      </scope>
+      <scope id="451554192446629846" at="95,0,99,0">
+        <var name="wildCardType" id="451554192446629850" />
+      </scope>
+      <scope id="1211078278629037385" at="84,112,89,29" />
+      <scope id="1211078278628457483" at="72,61,91,18">
+        <var name="primitive" id="1211078278628934561" />
+        <var name="result" id="1211078278629033430" />
+      </scope>
+      <scope id="1211078278628457477" at="71,0,93,0">
+        <var name="classifierType" id="1211078278628457481" />
+      </scope>
+      <scope id="1211078278628954102" at="34,69,58,92">
+        <var name="cncpt" id="1211078278628954102" />
+      </scope>
+      <scope id="1211078278628954097" at="34,0,60,0">
+        <var name="primitiveTypeConcept" id="1211078278628954100" />
+      </scope>
+      <unit id="1211078278628457141" at="108,0,111,0" name="CQRS.Kotlin.generation.KotlinJavaTypeTextConverter$PROPS" />
+      <unit id="1211078278629105215" at="85,160,89,7" name="CQRS.Kotlin.generation.KotlinJavaTypeTextConverter$1" />
+      <unit id="1211078278628457141" at="102,0,107,0" name="CQRS.Kotlin.generation.KotlinJavaTypeTextConverter$LINKS" />
+      <unit id="1211078278628457141" at="27,0,112,0" name="CQRS.Kotlin.generation.KotlinJavaTypeTextConverter" />
+    </file>
+  </root>
+  <root nodeRef="r:80a70671-192c-4185-9509-8b98e792e24c(CQRS.Kotlin.generation)/4321270588371296555">
+    <file name="KotlinConceptMapper.java">
+      <node id="4321270588371819388" at="21,0,22,0" concept="2" trace="fileOutputMappings" />
+      <node id="3231778346400974860" at="23,0,24,0" concept="2" trace="elementOutputMappings" />
+      <node id="4321270588371837159" at="25,48,26,35" concept="1" />
+      <node id="4321270588371843158" at="29,54,30,96" concept="1" />
+      <node id="4321270588371857909" at="32,46,33,131" concept="1" />
+      <node id="3231778346400972757" at="35,7,36,0" concept="7" />
+      <node id="3231778346400992269" at="36,0,37,99" concept="1" />
+      <node id="3231778346400992285" at="39,46,40,137" concept="1" />
+      <node id="4321270588371313094" at="46,49,47,35" concept="6" />
+      <node id="4321270588371310777" at="51,74,52,30" concept="6" />
+      <node id="3231778346401010263" at="56,77,57,33" concept="6" />
+      <node id="4321270588371296555" at="61,0,62,0" concept="8" trace="KotlinFileOutput$$w" />
+      <node id="4321270588371296555" at="62,0,63,0" concept="8" trace="FileOutput$PQ" />
+      <node id="4321270588371296555" at="63,0,64,0" concept="8" trace="KotlinElementOutput$Nm" />
+      <node id="4321270588371296555" at="64,0,65,0" concept="8" trace="ElementOutput$CK" />
+      <node id="4321270588371823321" at="25,0,28,0" concept="0" trace="KotlinConceptMapper#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="4321270588371853614" at="32,0,35,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="3231778346400992283" at="39,0,42,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)V" />
+      <node id="4321270588371311996" at="45,0,49,0" concept="4" trace="getGenerationTarget#()LCQRS/Generation/generation/GenerationTarget;" />
+      <node id="4321270588371298985" at="50,0,54,0" concept="4" trace="getFileOutputMappings#()Ljava/util/Map;" />
+      <node id="3231778346401005658" at="55,0,59,0" concept="4" trace="getElementOutputMappings#()Ljava/util/Map;" />
+      <node id="4321270588371825379" at="30,96,35,7" concept="1" />
+      <node id="3231778346400992276" at="37,99,42,7" concept="1" />
+      <node id="4321270588371819846" at="29,0,44,0" concept="4" trace="initConceptMappings#(Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="4321270588371823325" at="25,48,26,35" />
+      <scope id="4321270588371853615" at="32,46,33,131" />
+      <scope id="3231778346400992284" at="39,46,40,137" />
+      <scope id="4321270588371312000" at="46,49,47,35" />
+      <scope id="4321270588371298991" at="51,74,52,30" />
+      <scope id="3231778346401005664" at="56,77,57,33" />
+      <scope id="4321270588371823321" at="25,0,28,0">
+        <var name="cqrsModel" id="4321270588371823878" />
+      </scope>
+      <scope id="4321270588371853614" at="32,0,35,0">
+        <var name="it" id="4321270588371853614" />
+      </scope>
+      <scope id="3231778346400992283" at="39,0,42,0">
+        <var name="it" id="3231778346400992283" />
+      </scope>
+      <scope id="4321270588371311996" at="45,0,49,0" />
+      <scope id="4321270588371298985" at="50,0,54,0" />
+      <scope id="3231778346401005658" at="55,0,59,0" />
+      <scope id="4321270588371819849" at="29,54,42,7" />
+      <scope id="4321270588371819846" at="29,0,44,0">
+        <var name="cqrsModel" id="4321270588371835143" />
+      </scope>
+      <unit id="4321270588371853614" at="31,118,35,5" name="CQRS.Kotlin.generation.KotlinConceptMapper$1" />
+      <unit id="3231778346400992283" at="38,121,42,5" name="CQRS.Kotlin.generation.KotlinConceptMapper$2" />
+      <unit id="4321270588371296555" at="60,0,66,0" name="CQRS.Kotlin.generation.KotlinConceptMapper$CONCEPTS" />
+      <unit id="4321270588371296555" at="19,0,67,0" name="CQRS.Kotlin.generation.KotlinConceptMapper" />
+    </file>
+  </root>
+  <root nodeRef="r:80a70671-192c-4185-9509-8b98e792e24c(CQRS.Kotlin.generation)/4820124486365785305">
+    <file name="KotlinImportPathResolver.java">
+      <node id="4820124486365785426" at="9,0,11,0" concept="4" trace="resolve#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="4820124486365785430" at="9,42,9,42" />
+      <scope id="4820124486365785426" at="9,0,11,0">
+        <var name="fileOutoput" id="4820124486365785490" />
+      </scope>
+      <unit id="4820124486365785305" at="7,0,13,0" name="CQRS.Kotlin.generation.KotlinImportPathResolver" />
+    </file>
+  </root>
+  <root nodeRef="r:80a70671-192c-4185-9509-8b98e792e24c(CQRS.Kotlin.generation)/5062134915487042853">
+    <file name="KoltinDependencyTextConverter.java">
+      <node id="1211078278628468671" at="21,0,22,0" concept="2" trace="textConverter" />
+      <node id="4820124486369726752" at="24,49,25,35" concept="6" />
+      <node id="5240777668271353484" at="29,51,30,107" concept="6" />
+      <node id="5240777668271364396" at="34,53,35,215" concept="6" />
+      <node id="5062134915487404149" at="39,43,40,200" concept="6" />
+      <node id="5062134915487548816" at="45,111,46,89" concept="6" />
+      <node id="5062134915487594892" at="49,38,50,31" concept="6" />
+      <node id="1211078278628476746" at="56,57,57,55" concept="6" />
+      <node id="5062134915487042853" at="61,0,62,0" concept="8" trace="elementType$AnT5" />
+      <node id="5062134915487042853" at="62,0,63,0" concept="8" trace="keyType$mrlA" />
+      <node id="5062134915487042853" at="63,0,64,0" concept="8" trace="valueType$mrNC" />
+      <node id="5062134915487042853" at="64,0,65,0" concept="8" trace="actualTypes$o6Gi" />
+      <node id="5062134915487523179" at="44,57,47,5" concept="3" />
+      <node id="5062134915487593161" at="49,0,52,0" concept="4" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4820124486369726745" at="23,0,27,0" concept="4" trace="getGenerationTarget#()LCQRS/Generation/generation/GenerationTarget;" />
+      <node id="5062134915487404120" at="28,0,32,0" concept="4" trace="convertPrimitive#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5062134915487404130" at="33,0,37,0" concept="4" trace="convertCollection#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5062134915487404140" at="38,0,42,0" concept="4" trace="convertMapType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5062134915487404160" at="55,0,59,0" concept="4" trace="convertJavaDataType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="5062134915487404159" at="47,5,52,27" concept="6" />
+      <node id="5062134915487404150" at="43,0,54,0" concept="4" trace="convertImportedType#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="4820124486369726749" at="24,49,25,35" />
+      <scope id="5062134915487404126" at="29,51,30,107" />
+      <scope id="5062134915487404136" at="34,53,35,215" />
+      <scope id="5062134915487404146" at="39,43,40,200" />
+      <scope id="5062134915487523181" at="45,111,46,89" />
+      <scope id="5062134915487593162" at="49,38,50,31" />
+      <scope id="5062134915487404166" at="56,57,57,55" />
+      <scope id="5062134915487593161" at="49,0,52,0">
+        <var name="it" id="5062134915487593161" />
+      </scope>
+      <scope id="4820124486369726745" at="23,0,27,0" />
+      <scope id="5062134915487404120" at="28,0,32,0">
+        <var name="primitive" id="5062134915487404121" />
+      </scope>
+      <scope id="5062134915487404130" at="33,0,37,0">
+        <var name="collection" id="5062134915487404131" />
+      </scope>
+      <scope id="5062134915487404140" at="38,0,42,0">
+        <var name="map" id="5062134915487404141" />
+      </scope>
+      <scope id="5062134915487404160" at="55,0,59,0">
+        <var name="javaDataType" id="5062134915487404161" />
+      </scope>
+      <scope id="5062134915487404156" at="44,57,52,27" />
+      <scope id="5062134915487404150" at="43,0,54,0">
+        <var name="importedType" id="5062134915487404151" />
+      </scope>
+      <unit id="5062134915487593161" at="48,225,52,5" name="CQRS.Kotlin.generation.KoltinDependencyTextConverter$1" />
+      <unit id="5062134915487042853" at="60,0,66,0" name="CQRS.Kotlin.generation.KoltinDependencyTextConverter$LINKS" />
+      <unit id="5062134915487042853" at="19,0,67,0" name="CQRS.Kotlin.generation.KoltinDependencyTextConverter" />
+    </file>
+  </root>
+  <root nodeRef="r:80a70671-192c-4185-9509-8b98e792e24c(CQRS.Kotlin.generation)/5240777668273341404">
+    <file name="KotlinDependencyResolver.java">
+      <node id="5240777668273389376" at="11,0,12,0" concept="2" trace="boundedContext" />
+      <node id="5240777668273400406" at="13,50,14,34" concept="1" />
+      <node id="5240777668273728871" at="18,36,19,26" concept="6" />
+      <node id="5240777668277922836" at="23,49,24,35" concept="6" />
+      <node id="5240777668273397773" at="13,0,16,0" concept="0" trace="KotlinDependencyResolver#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5240777668273724177" at="17,0,21,0" concept="4" trace="getBoundedContext#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="5240777668277919883" at="22,0,26,0" concept="4" trace="getGenerationTarget#()LCQRS/Generation/generation/GenerationTarget;" />
+      <scope id="5240777668273397777" at="13,50,14,34" />
+      <scope id="5240777668273724181" at="18,36,19,26" />
+      <scope id="5240777668277919887" at="23,49,24,35" />
+      <scope id="5240777668273397773" at="13,0,16,0">
+        <var name="context" id="5240777668273398948" />
+      </scope>
+      <scope id="5240777668273724177" at="17,0,21,0" />
+      <scope id="5240777668277919883" at="22,0,26,0" />
+      <unit id="5240777668273341404" at="9,0,28,0" name="CQRS.Kotlin.generation.KotlinDependencyResolver" />
+    </file>
+  </root>
+</debug-info>
+

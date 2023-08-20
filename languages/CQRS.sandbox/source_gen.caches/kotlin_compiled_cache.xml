@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compile-output version="1">
+  <output path="context\examplecontext\query_side\events\generic\EventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\generic\EventHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\dto\UserDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\UserDto.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\ExampleAggregateRootCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\ExampleAggregateRootCommand.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\events\UserEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\UserEvent.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\User.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\User.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\generic\Command.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\generic\Command.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\IExampleAggregateRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\IExampleAggregateRootRepository.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\queries\OtherContextTestQuery.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\OtherContextTestQuery.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\CampusEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\CampusEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\handler\BookAddedToCatalogueHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\BookAddedToCatalogueHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\handler\UpdateBookSignatureHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\UpdateBookSignatureHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\events\TestEventTwo.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\MetadataCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\MetadataCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\Test.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\Test.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\generic\Command.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\generic\Command.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\aggregates\generic\BaseEventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\generic\AggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\AggregateRoot.kt" />
+  </output>
+  <output path="context\billing\query_side\events\TestOtherRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestOtherRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\handler\ExampleAggregateRootCommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\ExampleAggregateRootCommandHandler.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\queries\generic\Query.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\generic\Query.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\CampusOpened.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\MetadataEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\MetadataId.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\MetadataId.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\generic\AggregateRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\generic\AggregateRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\generic\AggregateRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\generic\AggregateRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\IBook.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\IBook.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\repositories\IUserDtoRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\repositories\IUserDtoRepository.kt" />
+  </output>
+  <output path="context\billing\query_side\events\handler\TestRootEventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\handler\TestRootEventHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\generic\AggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\AggregateRoot.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\ITest.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\ITest.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\valueobjects\Money.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Money.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\UpdateUserName.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\UpdateUserName.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\repositories\generic\AggregateRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\repositories\generic\AggregateRepository.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\commands\generic\CommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\commands\generic\CommandHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\Book.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Book.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\handler\AddBookHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\AddBookHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\DerivedDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\DerivedDto.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\CampusId.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\CampusId.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\CommandOne.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\ExampleAggregateRootCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\events\SeparateEventOne.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\ITestOtherRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ITestOtherRoot.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\MetadataEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\MetadataEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\User.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\User.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\IBookRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\IBookRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\Title.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Title.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\ITestRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\ITestRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\CampusEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\CampusEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\generic\EventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\generic\EventHandler.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\valueobjects\Address.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Address.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\CreateCampus.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\CampusCommand.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\commands\generic\Command.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\commands\generic\Command.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\BookId.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\BookId.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\handler\MetadataAddedHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\MetadataAddedHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\events\generic\EventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\generic\EventHandler.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\ExampleAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ExampleAggregateRoot.kt" />
+  </output>
+  <output path="context\billing\command_side\events\TestRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\processor\QueryContainerImpl.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\processor\QueryContainerImpl.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\generic\EventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\EventAggregateRoot.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\TestRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\TestRoot.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\generic\QueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\generic\QueryHandler.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\queries\generic\QueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\generic\QueryHandler.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\generic\AggregateRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\generic\AggregateRepository.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\SingleQuery.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\SingleQuery.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\generic\BaseEventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\handler\GetAllUsersHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetAllUsersHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\BookEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\events\ExampleAggregateRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\Custom.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\Custom.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\events\generic\EventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\events\generic\EventHandler.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\events\TestEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\TestEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\MetadataAdded.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\CampusEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\repositories\CustomDtoRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\repositories\CustomDtoRepository.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\TestRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\TestRepository.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\TestOtherRootCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\TestOtherRootCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\events\TestEventTwo.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\QueryContainer.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryContainer.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\ICampus.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\ICampus.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\dto\AddressDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\dto\AddressDto.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\handler\TestHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\handler\IGroupedQueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\handler\IGroupedQueryHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\CampusRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\CampusRepository.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\IUser.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\IUser.kt" />
+  </output>
+  <output path="context\billing\command_side\events\TestEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\GetAllUsers.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetAllUsers.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\ITestOtherRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ITestOtherRootRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\Metadata.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Metadata.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\BookAddedToCatalogue.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\repositories\ICustomDtoRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\repositories\ICustomDtoRepository.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\handler\UserQueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\UserQueryHandler.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\CommandTwo.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\ExampleAggregateRootCommand.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\GetUserByName.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\GetUserByName.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\processor\QueryProcessorImpl.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\processor\QueryProcessorImpl.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\QueryProcessorKt.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryProcessor.kt" />
+  </output>
+  <output path="context\billing\command_side\events\SeparateEventTwo.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\BookRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\BookRepository.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\aggregates\generic\AggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\AggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\CampusOpened.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\MetadataEvent.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\handler\GetUserByIdHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\GetUserByIdHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\ICampusRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\ICampusRepository.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\GetUserById.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetUserById.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\CampusLocation.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\CampusLocation.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\handler\GetUserByIdHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetUserByIdHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\dto\BookDocument.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\BookDocument.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\dto\UserDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\dto\UserDto.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\generic\BaseEventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\Campus.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Campus.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\handler\UpdateUserNameHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\UpdateUserNameHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\QueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\aggregates\IMetadata.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\IMetadata.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\MetadataEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\MetadataEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\events\ExampleAggregateRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\JavaDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\JavaDto.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\commands\generic\CommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\commands\generic\CommandHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\events\TestRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\IExampleAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\IExampleAggregateRoot.kt" />
+  </output>
+  <output path="context\billing\command_side\valueobjects\OtherValueObject.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\valueobjects\OtherValueObject.kt" />
+  </output>
+  <output path="context\billing\query_side\events\handler\ExampleAggregateRootEventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\handler\ExampleAggregateRootEventHandler.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\handler\CreateCampusHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\CreateCampusHandler.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\generic\Query.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\generic\Query.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\generic\AggregateIdRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\generic\AggregateIdRepository.kt" />
+  </output>
+  <output path="context\billing\query_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\handler\TestRootCommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestRootCommandHandler.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\ITestRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ITestRoot.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\IMetadataRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\IMetadataRepository.kt" />
+  </output>
+  <output path="context\catalog\query_side\dto\CampusDocument.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\CampusDocument.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\services\ITestService.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\services\ITestService.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\BookSignatureUpdated.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\dto\BookCopy.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\BookCopy.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\TestOtherRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\TestOtherRoot.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\handler\IUserQueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\IUserQueryHandler.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\events\UserEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\UserEvent.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\GetUserByName.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetUserByName.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\generic\AggregateIdRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\generic\AggregateIdRepository.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\generic\BaseEventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\CampusCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\CampusCommand.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\queries\GetUserById.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\GetUserById.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\CustomDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\CustomDto.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\Author.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Author.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\handler\GetUserByNameHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetUserByNameHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\handler\GroupedQueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\handler\GroupedQueryHandler.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\IUserRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\IUserRepository.kt" />
+  </output>
+  <output path="context\otherboundedcontext\query_side\queries\handler\OtherContextTestQueryHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\handler\OtherContextTestQueryHandler.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\repositories\generic\AggregateIdRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\repositories\generic\AggregateIdRepository.kt" />
+  </output>
+  <output path="context\catalog\query_side\dto\MetadataDocument.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\MetadataDocument.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\generic\CommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\generic\CommandHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\handler\CampusOpenedHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\CampusOpenedHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\BookSignatureUpdated.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\commands\generic\Command.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\commands\generic\Command.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\TestOtherRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\TestOtherRootRepository.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\events\handler\UserEventHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\handler\UserEventHandler.kt" />
+  </output>
+  <output path="context\billing\query_side\events\TestEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\ExampleAggregateRootEvent.kt" />
+  </output>
+  <output path="META-INF\CQRS.sandbox.kotlin_module">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\entities\generic\Entity.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ITestOtherRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\EventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\CreateCampusHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\IBookRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\MetadataCommand.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\AggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\handler\TestRootEventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\User.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\UserEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\UserRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\generic\AggregateRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ITestOtherRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\MetadataDocument.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetAllUsers.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\IUser.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\generic\Command.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\Test.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\OtherDerivedDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\services\ITestService.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\commands\generic\Command.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\SingleQuery.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\IExampleAggregateRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\CampusEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\dto\UserDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\handler\ExampleAggregateRootEventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\ISBN.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\GetUser.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\handler\GroupedQueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\CampusLocation.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\generic\QueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetUserByIdHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\BookId.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\repositories\CustomDtoRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\EventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\GetUserById.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestOtherRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\MetadataAddedHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\ITest.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\Query.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\valueobjects\OriginalValueObject.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\valueobjects\OtherValueObject.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\AggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\UpdateUserNameHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Metadata.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\IMetadataRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\entities\TestEntity.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\generic\AggregateIdRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\CustomDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Author.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\repositories\IUserDtoRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\repositories\generic\AggregateRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\generic\Command.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\DerivedDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\BaseEventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\events\generic\EventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\BookCopy.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestOtherRootCommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\MetadataRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\BookDocument.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\ICampusRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\generic\QueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestRootCommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Campus.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetAllUsersHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\UpdateUserName.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\CampusRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\generic\EventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\TestOtherRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\BookRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\BookSignatureUpdatedHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\CampusCommand.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\generic\AggregateIdRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\BookCommand.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Title.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\UserId.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\generic\EventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\services\TestService.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\CampusEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Currency.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\MetadataId.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\User.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\BookEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\CampusOpenedHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetUserByName.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\handler\OtherContextTestQueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ITestRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Signature.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\IMetadata.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\commands\generic\CommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\IBook.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\processor\QueryContainerImpl.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\AggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\TestEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\generic\Query.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\CampusId.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ExampleAggregateRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\GetUserByIdHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\GetUserById.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryProcessor.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Address.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\AddBookHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\BookAddedToCatalogueHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\UpdateBookSignatureHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\IUserQueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\events\handler\UserEventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\OtherContextTestQuery.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\TestRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\repositories\ICustomDtoRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\commands\generic\CommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\handler\IGroupedQueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\commands\generic\Command.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\TestOtherRootCommand.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\AggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\UserDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\generic\EventHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\ITestRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\MetadataEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\processor\QueryProcessorImpl.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\generic\EventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\MetadataEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestOtherRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\repositories\generic\AggregateIdRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\Book.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\BookEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\ExampleAggregateRootCommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Money.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\generic\AggregateRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\TestEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryContainer.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\TestRootCommand.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\AddMetadataHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\generic\Query.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\Custom.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\handler\UserQueryHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\EventAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\repositories\UserDtoRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\generic\AggregateIdRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\queries\GetUserByName.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\dto\AddressDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Publisher.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\generic\AggregateRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ITestRootRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\dto\CampusDocument.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\TestRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\aggregates\ICampus.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\TestOtherRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\ExampleAggregateRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\IExampleAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\generic\CommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\JavaDto.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\handler\GetUserByNameHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\TestRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\IUserRepository.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\Test.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\generic\Event.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\UserEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\ExampleAggregateRootEvent.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\query_side\queries\generic\Query.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\ExampleAggregateRoot.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\generic\CommandHandler.kt" />
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\ExampleAggregateRootCommand.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\QueryProcessor.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryProcessor.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\handler\AddMetadataHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\handler\AddMetadataHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\QueryContainer$DefaultImpls.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\QueryContainer.kt" />
+  </output>
+  <output path="context\catalog\query_side\queries\generic\Query.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\queries\generic\Query.kt" />
+  </output>
+  <output path="context\catalog\command_side\repositories\MetadataRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\repositories\MetadataRepository.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\Test.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\Test.kt" />
+  </output>
+  <output path="context\billing\query_side\events\SeparateEventOne.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\aggregates\generic\EventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\aggregates\generic\EventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\BookCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\BookCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\entities\generic\Entity.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\entities\generic\Entity.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\valueobjects\Currency.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\Currency.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\generic\Query.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\generic\Query.kt" />
+  </output>
+  <output path="context\examplecontext\query_side\repositories\UserDtoRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\query_side\repositories\UserDtoRepository.kt" />
+  </output>
+  <output path="context\billing\command_side\valueobjects\OriginalValueObject.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\valueobjects\OriginalValueObject.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\generic\AggregateIdRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\generic\AggregateIdRepository.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\handler\TestOtherRootCommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\handler\TestOtherRootCommandHandler.kt" />
+  </output>
+  <output path="context\otherboundedcontext\command_side\aggregates\generic\EventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\otherboundedcontext\command_side\aggregates\generic\EventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\handler\BookSignatureUpdatedHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\handler\BookSignatureUpdatedHandler.kt" />
+  </output>
+  <output path="context\catalog\query_side\events\BookAddedToCatalogue.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\query_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\services\TestService.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\services\TestService.kt" />
+  </output>
+  <output path="context\billing\command_side\commands\TestRootCommand.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\commands\TestRootCommand.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\events\TestEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\TestEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\Signature.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Signature.kt" />
+  </output>
+  <output path="context\billing\query_side\queries\GetUser.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\queries\GetUser.kt" />
+  </output>
+  <output path="context\billing\query_side\dto\OtherDerivedDto.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\dto\OtherDerivedDto.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\events\generic\Event.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\events\generic\Event.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\AddMetadata.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\MetadataCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\TestRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\TestRootRepository.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\repositories\UserRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\repositories\UserRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\BookEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\BookEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\UpdateBookSignature.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\BookCommand.kt" />
+  </output>
+  <output path="context\billing\command_side\events\TestOtherRootEvent.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\events\TestOtherRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\generic\EventAggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\EventAggregateRoot.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\generic\CommandHandler.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\generic\CommandHandler.kt" />
+  </output>
+  <output path="context\billing\command_side\entities\TestEntity.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\entities\TestEntity.kt" />
+  </output>
+  <output path="context\billing\command_side\aggregates\generic\AggregateRoot.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\aggregates\generic\AggregateRoot.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\ExampleAggregateRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ExampleAggregateRootRepository.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\ISBN.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\ISBN.kt" />
+  </output>
+  <output path="context\catalog\command_side\commands\AddBook.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\commands\BookCommand.kt" />
+  </output>
+  <output path="context\catalog\command_side\events\MetadataAdded.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\events\CampusEvent.kt" />
+  </output>
+  <output path="context\catalog\command_side\valueobjects\Publisher.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\catalog\command_side\valueobjects\Publisher.kt" />
+  </output>
+  <output path="context\examplecontext\command_side\valueobjects\UserId.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\examplecontext\command_side\valueobjects\UserId.kt" />
+  </output>
+  <output path="context\billing\query_side\events\SeparateEventTwo.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\query_side\events\TestRootEvent.kt" />
+  </output>
+  <output path="context\billing\command_side\repositories\ITestRootRepository.class">
+    <input path="D:\Programming\MPSProjects\CQRS-DSL\languages\CQRS.sandbox\source_gen\context\billing\command_side\repositories\ITestRootRepository.kt" />
+  </output>
+</compile-output>
+

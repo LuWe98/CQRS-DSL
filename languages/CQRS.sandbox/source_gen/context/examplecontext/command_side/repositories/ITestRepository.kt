@@ -1,0 +1,7 @@
+package context.examplecontext.command_side.repositories
+
+import context.examplecontext.command_side.repositories.generic.AggregateIdRepository
+import context.examplecontext.command_side.aggregates.Test
+import context.examplecontext.command_side.valueobjects.UserId
+
+interface ITestRepository: AggregateIdRepository<UserId, Test>

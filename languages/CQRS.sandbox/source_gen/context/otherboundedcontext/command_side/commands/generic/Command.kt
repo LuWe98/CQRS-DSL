@@ -1,0 +1,3 @@
+package context.otherboundedcontext.command_side.commands.generic
+
+interface Command

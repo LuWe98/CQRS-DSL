@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-hotth6p8j2u0xdzsfsd78l4veljxu">
+  <files names="ConceptPresentationAspectImpl.java:EnumerationDescriptor_CommandContainerType.java:EnumerationDescriptor_CommandHandlingSettingType.java:EnumerationDescriptor_DtoDataTypeRuleApplicability.java:EnumerationDescriptor_DtoDerivationRuleUsage.java:EnumerationDescriptor_EventContainerType.java:EnumerationDescriptor_EventHandlingSettingType.java:EnumerationDescriptor_FlatteningRuleNameConvention.java:EnumerationDescriptor_MethodModifier.java:EnumerationDescriptor_QueryContainerType.java:EnumerationDescriptor_QueryHandlingSettingType.java:EnumerationDescriptor_VariableModifier.java:LanguageConceptSwitch.java:StructureAspectDescriptor.java" />
+</product>
+

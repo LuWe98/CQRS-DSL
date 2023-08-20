@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="16,0,44,0" name="CQRS.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:d0133378-c212-476f-9d93-c504506cf59e(CQRS.actions)/32060296147761278">
+    <file name="CopyPasteHandlers_CopyPreProcessor_0.java">
+      <node id="2367499543068271131" at="14,50,15,39" concept="5" />
+      <node id="2367499543076985514" at="18,58,19,102" concept="6" />
+      <node id="2367499543072635381" at="19,102,20,55" concept="1" />
+      <node id="2367499543068271131" at="24,0,25,0" concept="8" trace="DescriptionLine$l7" />
+      <node id="2367499543068271131" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2367499543068271131" at="17,0,22,0" concept="3" trace="preProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="2367499543068271131" at="14,50,15,39" />
+      <scope id="2367499543068271133" at="18,58,20,55" />
+      <scope id="2367499543068271131" at="13,0,17,0" />
+      <scope id="2367499543068271131" at="17,0,22,0">
+        <var name="copy" id="2367499543068271131" />
+        <var name="original" id="2367499543068271131" />
+      </scope>
+      <unit id="2367499543068271131" at="23,0,26,0" name="CQRS.actions.CopyPasteHandlers_CopyPreProcessor_0$CONCEPTS" />
+      <unit id="2367499543068271131" at="12,0,27,0" name="CQRS.actions.CopyPasteHandlers_CopyPreProcessor_0" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_0.java">
+      <node id="32060296163596224" at="14,50,15,31" concept="5" />
+      <node id="438631690734729797" at="18,49,19,141" concept="1" />
+      <node id="32060296163596224" at="23,0,24,0" concept="8" trace="Command$kL" />
+      <node id="32060296163596224" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="32060296163596224" at="17,0,21,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="32060296163596224" at="14,50,15,31" />
+      <scope id="32060296163596226" at="18,49,19,141" />
+      <scope id="32060296163596224" at="13,0,17,0" />
+      <scope id="32060296163596224" at="17,0,21,0">
+        <var name="pastedNode" id="32060296163596224" />
+      </scope>
+      <unit id="32060296163596224" at="22,0,25,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_0$CONCEPTS" />
+      <unit id="32060296163596224" at="12,0,26,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_0" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_1.java">
+      <node id="6124797423295636521" at="14,50,15,29" concept="5" />
+      <node id="438631690737333168" at="18,49,19,141" concept="1" />
+      <node id="6124797423295636521" at="23,0,24,0" concept="8" trace="Event$7G" />
+      <node id="6124797423295636521" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6124797423295636521" at="17,0,21,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6124797423295636521" at="14,50,15,29" />
+      <scope id="6124797423295636523" at="18,49,19,141" />
+      <scope id="6124797423295636521" at="13,0,17,0" />
+      <scope id="6124797423295636521" at="17,0,21,0">
+        <var name="pastedNode" id="6124797423295636521" />
+      </scope>
+      <unit id="6124797423295636521" at="22,0,25,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_1$CONCEPTS" />
+      <unit id="6124797423295636521" at="12,0,26,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_1" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_2.java">
+      <node id="32060296147761279" at="14,50,15,29" concept="5" />
+      <node id="438631690737334037" at="18,49,19,141" concept="1" />
+      <node id="32060296147761279" at="23,0,24,0" concept="8" trace="Query$nF" />
+      <node id="32060296147761279" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="32060296147761279" at="17,0,21,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="32060296147761279" at="14,50,15,29" />
+      <scope id="32060296147761281" at="18,49,19,141" />
+      <scope id="32060296147761279" at="13,0,17,0" />
+      <scope id="32060296147761279" at="17,0,21,0">
+        <var name="pastedNode" id="32060296147761279" />
+      </scope>
+      <unit id="32060296147761279" at="22,0,25,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_2$CONCEPTS" />
+      <unit id="32060296147761279" at="12,0,26,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_2" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_3.java">
+      <node id="6450688239643123276" at="25,50,26,45" concept="5" />
+      <node id="6450688239643710828" at="29,49,30,216" concept="4" />
+      <node id="6450688239643162523" at="31,32,32,13" concept="5" />
+      <node id="6124797423308369120" at="33,5,34,0" concept="7" />
+      <node id="6124797423310181923" at="34,0,35,310" concept="4" />
+      <node id="6124797423310194150" at="35,310,36,111" concept="1" />
+      <node id="6124797423316033183" at="38,37,39,95" concept="5" />
+      <node id="6124797423310264725" at="41,8,42,0" concept="7" />
+      <node id="6450688239643715039" at="42,0,43,76" concept="1" />
+      <node id="6124797423318601095" at="43,76,44,58" concept="1" />
+      <node id="6450688239643123276" at="48,0,49,0" concept="8" trace="QueryContainerMethods$BL" />
+      <node id="6450688239643123276" at="49,0,50,0" concept="8" trace="EmptyLine$_9" />
+      <node id="6450688239643123276" at="53,0,54,0" concept="8" trace="queryContainerReference$omL$" />
+      <node id="6450688239643123276" at="54,0,55,0" concept="8" trace="queryContainer$onw4" />
+      <node id="6450688239643130519" at="30,216,33,5" concept="2" />
+      <node id="6124797423312582286" at="38,0,41,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6450688239643123276" at="24,0,28,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6124797423308370659" at="36,111,41,8" concept="1" />
+      <node id="6450688239643123276" at="28,0,46,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6450688239643123276" at="25,50,26,45" />
+      <scope id="6450688239643130521" at="31,32,32,13" />
+      <scope id="6124797423312582287" at="38,37,39,95" />
+      <scope id="6124797423312582286" at="38,0,41,0">
+        <var name="it" id="6124797423312582286" />
+      </scope>
+      <scope id="6450688239643123276" at="24,0,28,0" />
+      <scope id="6450688239643123278" at="29,49,44,58">
+        <var name="currentNode" id="6450688239643710829" />
+        <var name="references" id="6124797423310181924" />
+      </scope>
+      <scope id="6450688239643123276" at="28,0,46,0">
+        <var name="pastedNode" id="6450688239643123276" />
+      </scope>
+      <unit id="6124797423312582286" at="37,160,41,5" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_3$1" />
+      <unit id="6450688239643123276" at="47,0,51,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_3$CONCEPTS" />
+      <unit id="6450688239643123276" at="52,0,56,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_3$LINKS" />
+      <unit id="6450688239643123276" at="23,0,57,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_3" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_4.java">
+      <node id="6450688239643132676" at="25,50,26,36" concept="5" />
+      <node id="6450688239643717431" at="29,49,30,198" concept="4" />
+      <node id="6450688239643162687" at="31,32,32,13" concept="5" />
+      <node id="6124797423309109950" at="33,5,34,0" concept="7" />
+      <node id="6124797423309221523" at="34,0,35,271" concept="4" />
+      <node id="6124797423309012432" at="35,271,36,102" concept="1" />
+      <node id="6124797423316176402" at="38,37,39,86" concept="5" />
+      <node id="6124797423309425955" at="41,8,42,0" concept="7" />
+      <node id="6124797423307087553" at="42,0,43,76" concept="1" />
+      <node id="6124797423318505053" at="43,76,44,58" concept="1" />
+      <node id="6450688239643132676" at="48,0,49,0" concept="8" trace="QueryMethods$oC" />
+      <node id="6450688239643132676" at="49,0,50,0" concept="8" trace="EmptyLine$_9" />
+      <node id="6450688239643132676" at="53,0,54,0" concept="8" trace="queryRefernces$MO8p" />
+      <node id="6450688239643132676" at="54,0,55,0" concept="8" trace="query$ROy$" />
+      <node id="6450688239643132856" at="30,198,33,5" concept="2" />
+      <node id="6124797423316175311" at="38,0,41,0" concept="3" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6450688239643132676" at="24,0,28,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6124797423309439972" at="36,102,41,8" concept="1" />
+      <node id="6450688239643132676" at="28,0,46,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6450688239643132676" at="25,50,26,36" />
+      <scope id="6450688239643132857" at="31,32,32,13" />
+      <scope id="6124797423316175312" at="38,37,39,86" />
+      <scope id="6124797423316175311" at="38,0,41,0">
+        <var name="it" id="6124797423316175311" />
+      </scope>
+      <scope id="6450688239643132676" at="24,0,28,0" />
+      <scope id="6450688239643132678" at="29,49,44,58">
+        <var name="currentNode" id="6450688239643717432" />
+        <var name="queries" id="6124797423309221524" />
+      </scope>
+      <scope id="6450688239643132676" at="28,0,46,0">
+        <var name="pastedNode" id="6450688239643132676" />
+      </scope>
+      <unit id="6124797423316175311" at="37,148,41,5" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_4$1" />
+      <unit id="6450688239643132676" at="47,0,51,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_4$CONCEPTS" />
+      <unit id="6450688239643132676" at="52,0,56,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_4$LINKS" />
+      <unit id="6450688239643132676" at="23,0,57,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_4" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_5.java">
+      <node id="400088555744671517" at="14,50,15,46" concept="5" />
+      <node id="400088555752898378" at="18,49,19,105" concept="1" />
+      <node id="400088555744671517" at="23,0,24,0" concept="8" trace="DtoRepositoryReference$up" />
+      <node id="400088555744671517" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="400088555744671517" at="17,0,21,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="400088555744671517" at="14,50,15,46" />
+      <scope id="400088555744671519" at="18,49,19,105" />
+      <scope id="400088555744671517" at="13,0,17,0" />
+      <scope id="400088555744671517" at="17,0,21,0">
+        <var name="pastedNode" id="400088555744671517" />
+      </scope>
+      <unit id="400088555744671517" at="22,0,25,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_5$CONCEPTS" />
+      <unit id="400088555744671517" at="12,0,26,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_5" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_6.java">
+      <node id="400088555744672828" at="14,50,15,56" concept="5" />
+      <node id="400088555752900866" at="18,49,19,105" concept="1" />
+      <node id="400088555744672828" at="23,0,24,0" concept="8" trace="AggregateRootRepositoryReference$pq" />
+      <node id="400088555744672828" at="13,0,17,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="400088555744672828" at="17,0,21,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="400088555744672828" at="14,50,15,56" />
+      <scope id="400088555744672830" at="18,49,19,105" />
+      <scope id="400088555744672828" at="13,0,17,0" />
+      <scope id="400088555744672828" at="17,0,21,0">
+        <var name="pastedNode" id="400088555744672828" />
+      </scope>
+      <unit id="400088555744672828" at="22,0,25,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_6$CONCEPTS" />
+      <unit id="400088555744672828" at="12,0,26,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_6" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_7.java">
+      <node id="438631690747453990" at="15,50,16,35" concept="5" />
+      <node id="438631690748095303" at="19,49,20,114" concept="4" />
+      <node id="2302485497102080885" at="21,36,22,13" concept="5" />
+      <node id="438631690748095595" at="23,5,24,120" concept="1" />
+      <node id="438631690748710653" at="24,120,25,89" concept="1" />
+      <node id="438631690747453990" at="29,0,30,0" concept="8" trace="GenericType$So" />
+      <node id="438631690747453990" at="30,0,31,0" concept="8" trace="ImportStatement$pX" />
+      <node id="438631690749327104" at="20,114,23,5" concept="2" />
+      <node id="438631690747453990" at="14,0,18,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="438631690747453990" at="18,0,27,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="438631690747453990" at="15,50,16,35" />
+      <scope id="438631690749327106" at="21,36,22,13" />
+      <scope id="438631690747453990" at="14,0,18,0" />
+      <scope id="438631690747453992" at="19,49,25,89">
+        <var name="importStatement" id="438631690748095304" />
+      </scope>
+      <scope id="438631690747453990" at="18,0,27,0">
+        <var name="pastedNode" id="438631690747453990" />
+      </scope>
+      <unit id="438631690747453990" at="28,0,32,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_7$CONCEPTS" />
+      <unit id="438631690747453990" at="13,0,33,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_7" />
+    </file>
+    <file name="CopyPasteHandlers_PastePostProcessor_8.java">
+      <node id="6242459752551854554" at="20,50,21,42" concept="5" />
+      <node id="8552770862225484796" at="24,55,25,245" concept="4" />
+      <node id="2302485497102078507" at="25,245,26,0" concept="7" />
+      <node id="2302485497102076260" at="28,39,29,32" concept="5" />
+      <node id="2302485497102076269" at="32,35,33,39" concept="1" />
+      <node id="6242459752551854554" at="39,0,40,0" concept="8" trace="GenerationSettings$VF" />
+      <node id="6242459752551854554" at="43,0,44,0" concept="8" trace="components$8ymK" />
+      <node id="2302485497102076258" at="28,0,31,0" concept="3" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="2302485497102076267" at="32,0,35,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6242459752551854554" at="19,0,23,0" concept="3" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2302485497102076252" at="26,0,35,7" concept="1" />
+      <node id="6242459752551854554" at="23,0,37,0" concept="3" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6242459752551854554" at="20,50,21,42" />
+      <scope id="2302485497102076259" at="28,39,29,32" />
+      <scope id="2302485497102076268" at="32,35,33,39" />
+      <scope id="2302485497102076258" at="28,0,31,0">
+        <var name="it" id="2302485497102076258" />
+      </scope>
+      <scope id="2302485497102076267" at="32,0,35,0">
+        <var name="it" id="2302485497102076267" />
+      </scope>
+      <scope id="6242459752551854554" at="19,0,23,0" />
+      <scope id="6242459752551854556" at="24,55,35,7">
+        <var name="generationSettings" id="8552770862225484797" />
+      </scope>
+      <scope id="6242459752551854554" at="23,0,37,0">
+        <var name="pastedNode" id="6242459752551854554" />
+      </scope>
+      <unit id="6242459752551854554" at="38,0,41,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_8$CONCEPTS" />
+      <unit id="6242459752551854554" at="42,0,45,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_8$LINKS" />
+      <unit id="2302485497102076258" at="27,56,31,5" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_8$1" />
+      <unit id="2302485497102076267" at="31,20,35,5" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_8$2" />
+      <unit id="6242459752551854554" at="18,0,46,0" name="CQRS.actions.CopyPasteHandlers_PastePostProcessor_8" />
+    </file>
+  </root>
+  <root nodeRef="r:d0133378-c212-476f-9d93-c504506cf59e(CQRS.actions)/400088555738980558">
+    <file name="PasteWrappers_PasteWrapper_0.java">
+      <node id="5677076387093141037" at="14,46,15,32" concept="5" />
+      <node id="5677076387093141037" at="18,46,19,33" concept="5" />
+      <node id="5677076387107493221" at="22,39,23,94" concept="5" />
+      <node id="5677076387093141037" at="27,0,28,0" concept="8" trace="Property$lE" />
+      <node id="5677076387093141037" at="28,0,29,0" concept="8" trace="Parameter$as" />
+      <node id="5677076387093141037" at="13,0,17,0" concept="3" trace="getSourceConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387093141037" at="17,0,21,0" concept="3" trace="getTargetConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387093141037" at="21,0,25,0" concept="3" trace="wrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5677076387093141037" at="14,46,15,32" />
+      <scope id="5677076387093141037" at="18,46,19,33" />
+      <scope id="5677076387093141039" at="22,39,23,94" />
+      <scope id="5677076387093141037" at="13,0,17,0" />
+      <scope id="5677076387093141037" at="17,0,21,0" />
+      <scope id="5677076387093141037" at="21,0,25,0">
+        <var name="sourceNode" id="5677076387093141037" />
+      </scope>
+      <unit id="5677076387093141037" at="26,0,30,0" name="CQRS.actions.PasteWrappers_PasteWrapper_0$CONCEPTS" />
+      <unit id="5677076387093141037" at="12,0,31,0" name="CQRS.actions.PasteWrappers_PasteWrapper_0" />
+    </file>
+    <file name="PasteWrappers_PasteWrapper_1.java">
+      <node id="400088555755176442" at="14,46,15,35" concept="5" />
+      <node id="400088555755176442" at="18,46,19,44" concept="5" />
+      <node id="400088555755176814" at="22,39,23,106" concept="5" />
+      <node id="400088555755176442" at="27,0,28,0" concept="8" trace="IRepository$i8" />
+      <node id="400088555755176442" at="28,0,29,0" concept="8" trace="IRepositoryReference$aQ" />
+      <node id="400088555755176442" at="13,0,17,0" concept="3" trace="getSourceConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="400088555755176442" at="17,0,21,0" concept="3" trace="getTargetConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="400088555755176442" at="21,0,25,0" concept="3" trace="wrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="400088555755176442" at="14,46,15,35" />
+      <scope id="400088555755176442" at="18,46,19,44" />
+      <scope id="400088555755176444" at="22,39,23,106" />
+      <scope id="400088555755176442" at="13,0,17,0" />
+      <scope id="400088555755176442" at="17,0,21,0" />
+      <scope id="400088555755176442" at="21,0,25,0">
+        <var name="sourceNode" id="400088555755176442" />
+      </scope>
+      <unit id="400088555755176442" at="26,0,30,0" name="CQRS.actions.PasteWrappers_PasteWrapper_1$CONCEPTS" />
+      <unit id="400088555755176442" at="12,0,31,0" name="CQRS.actions.PasteWrappers_PasteWrapper_1" />
+    </file>
+    <file name="PasteWrappers_PasteWrapper_2.java">
+      <node id="5677076387100464876" at="15,46,16,33" concept="5" />
+      <node id="5677076387100464876" at="19,46,20,47" concept="5" />
+      <node id="5677076387107496935" at="23,39,24,93" concept="5" />
+      <node id="5677076387100464876" at="28,0,29,0" concept="8" trace="Parameter$as" />
+      <node id="5677076387100464876" at="29,0,30,0" concept="8" trace="IAggregateRootComponent$hc" />
+      <node id="5677076387100464876" at="14,0,18,0" concept="3" trace="getSourceConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387100464876" at="18,0,22,0" concept="3" trace="getTargetConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387100464876" at="22,0,26,0" concept="3" trace="wrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5677076387100464876" at="15,46,16,33" />
+      <scope id="5677076387100464876" at="19,46,20,47" />
+      <scope id="5677076387100464878" at="23,39,24,93" />
+      <scope id="5677076387100464876" at="14,0,18,0" />
+      <scope id="5677076387100464876" at="18,0,22,0" />
+      <scope id="5677076387100464876" at="22,0,26,0">
+        <var name="sourceNode" id="5677076387100464876" />
+      </scope>
+      <unit id="5677076387100464876" at="27,0,31,0" name="CQRS.actions.PasteWrappers_PasteWrapper_2$CONCEPTS" />
+      <unit id="5677076387100464876" at="13,0,32,0" name="CQRS.actions.PasteWrappers_PasteWrapper_2" />
+    </file>
+    <file name="PasteWrappers_PasteWrapper_3.java">
+      <node id="5677076387107485993" at="15,46,16,33" concept="5" />
+      <node id="5677076387107485993" at="19,46,20,40" concept="5" />
+      <node id="5677076387107499529" at="23,39,24,93" concept="5" />
+      <node id="5677076387107485993" at="28,0,29,0" concept="8" trace="Parameter$as" />
+      <node id="5677076387107485993" at="29,0,30,0" concept="8" trace="IEntityComponent$hR" />
+      <node id="5677076387107485993" at="14,0,18,0" concept="3" trace="getSourceConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387107485993" at="18,0,22,0" concept="3" trace="getTargetConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="5677076387107485993" at="22,0,26,0" concept="3" trace="wrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="5677076387107485993" at="15,46,16,33" />
+      <scope id="5677076387107485993" at="19,46,20,40" />
+      <scope id="5677076387107485995" at="23,39,24,93" />
+      <scope id="5677076387107485993" at="14,0,18,0" />
+      <scope id="5677076387107485993" at="18,0,22,0" />
+      <scope id="5677076387107485993" at="22,0,26,0">
+        <var name="sourceNode" id="5677076387107485993" />
+      </scope>
+      <unit id="5677076387107485993" at="27,0,31,0" name="CQRS.actions.PasteWrappers_PasteWrapper_3$CONCEPTS" />
+      <unit id="5677076387107485993" at="13,0,32,0" name="CQRS.actions.PasteWrappers_PasteWrapper_3" />
+    </file>
+    <file name="PasteWrappers_PasteWrapper_4.java">
+      <node id="8914850872824942469" at="14,46,15,29" concept="5" />
+      <node id="8914850872824942469" at="18,46,19,38" concept="5" />
+      <node id="8914850872827458062" at="22,39,23,41" concept="6" />
+      <node id="8914850872824942878" at="23,41,24,90" concept="5" />
+      <node id="8914850872824942469" at="28,0,29,0" concept="8" trace="Query$nF" />
+      <node id="8914850872824942469" at="29,0,30,0" concept="8" trace="QueryReference$zj" />
+      <node id="8914850872824942469" at="13,0,17,0" concept="3" trace="getSourceConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8914850872824942469" at="17,0,21,0" concept="3" trace="getTargetConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8914850872824942469" at="21,0,26,0" concept="3" trace="wrap#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <scope id="8914850872824942469" at="14,46,15,29" />
+      <scope id="8914850872824942469" at="18,46,19,38" />
+      <scope id="8914850872824942471" at="22,39,24,90" />
+      <scope id="8914850872824942469" at="13,0,17,0" />
+      <scope id="8914850872824942469" at="17,0,21,0" />
+      <scope id="8914850872824942469" at="21,0,26,0">
+        <var name="sourceNode" id="8914850872824942469" />
+      </scope>
+      <unit id="8914850872824942469" at="27,0,31,0" name="CQRS.actions.PasteWrappers_PasteWrapper_4$CONCEPTS" />
+      <unit id="8914850872824942469" at="12,0,32,0" name="CQRS.actions.PasteWrappers_PasteWrapper_4" />
+    </file>
+  </root>
+  <root nodeRef="r:d0133378-c212-476f-9d93-c504506cf59e(CQRS.actions)/4244590657561719402">
+    <file name="AggregateRootFactory.java">
+      <node id="4796305698376437059" at="19,28,20,15" concept="5" />
+      <node id="4244590657562084895" at="21,7,22,27" concept="4" />
+      <node id="1348602402692121476" at="23,36,24,112" concept="1" />
+      <node id="1348602402692121490" at="25,14,26,115" concept="1" />
+      <node id="1502909481139826269" at="27,7,28,192" concept="4" />
+      <node id="1502909481139824330" at="28,192,29,74" concept="1" />
+      <node id="2302485497098361764" at="29,74,30,0" concept="7" />
+      <node id="4244590657562102220" at="30,0,31,189" concept="4" />
+      <node id="4244590657562100684" at="31,189,32,90" concept="1" />
+      <node id="4244590657563216786" at="32,90,33,243" concept="1" />
+      <node id="4244590657562085844" at="33,243,34,104" concept="1" />
+      <node id="4244590657561719402" at="39,0,40,0" concept="8" trace="BoundedContext$RF" />
+      <node id="4244590657561719402" at="43,0,44,0" concept="8" trace="aggregate$D_P$" />
+      <node id="4244590657561719402" at="44,0,45,0" concept="8" trace="aggregateReference$Zvu9" />
+      <node id="4244590657561719402" at="45,0,46,0" concept="8" trace="components$8ymK" />
+      <node id="1348602402692121486" at="25,12,27,7" concept="0" />
+      <node id="4796305698376432384" at="18,102,21,7" concept="2" />
+      <node id="1348602402692121500" at="22,27,27,7" concept="2" />
+      <node id="4244590657561719403" at="18,0,36,0" concept="3" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="4796305698376432386" at="19,28,20,15" />
+      <scope id="1348602402692121503" at="23,36,24,112" />
+      <scope id="1348602402692121488" at="25,14,26,115" />
+      <scope id="4244590657561719403" at="18,102,34,104">
+        <var name="boundedContext" id="4244590657562084896" />
+        <var name="eventContainer" id="4244590657562102221" />
+        <var name="reference" id="1502909481139826270" />
+      </scope>
+      <scope id="4244590657561719403" at="18,0,36,0">
+        <var name="enclosingNode" id="4244590657561719403" />
+        <var name="index" id="4244590657561719403" />
+        <var name="model" id="4244590657561719403" />
+        <var name="newNode" id="4244590657561719403" />
+        <var name="sampleNode" id="4244590657561719403" />
+      </scope>
+      <unit id="4244590657561719402" at="38,0,41,0" name="CQRS.actions.AggregateRootFactory$CONCEPTS" />
+      <unit id="4244590657561719402" at="42,0,47,0" name="CQRS.actions.AggregateRootFactory$LINKS" />
+      <unit id="4244590657561719403" at="17,0,37,0" name="CQRS.actions.AggregateRootFactory$NodeFactory_4244590657561719403" />
+      <unit id="4244590657561719402" at="16,0,48,0" name="CQRS.actions.AggregateRootFactory" />
+    </file>
+  </root>
+</debug-info>
+
